@@ -23,7 +23,7 @@ public class HashTable {
         while (names.hasMoreElements()){
 
             key = (String) names.nextElement();
-            System.out.printf("Key: %s & Value: %s.%n",key,htable.get(key));
+            System.out.printf("Key: %s & Value: %s.%n",key,htable.get(key)); // doesn't preserve the insertion order
         }
 
 
