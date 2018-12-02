@@ -11,6 +11,8 @@ public class MapExample {
 		myMap.put("1111","def");
 		
 		myMap.forEach((k,v) -> System.out.println(k + "|" + v));
+	    myMap.replaceAll((k, v) ->v.toUpperCase());
+	    myMap.forEach((k,v) -> System.out.println(k + "|" + v));
 	}
 	
 	
